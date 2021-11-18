@@ -4,6 +4,7 @@ from .serializers import ItemSerializer
 from .models import Item 
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
+from rest_framework.authentication import BasicAuthentication
 
 # Create your views here.
 
